@@ -1,0 +1,28 @@
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li:hover {
+    background-color: aqua;
+    font-size: 130%;
+    transition: 1s;
+    border-radius: 1px 15px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    margin: 5px 35px;
+    transition: 1.2s;
+    border: 2px solid tomato;
+    border-radius: 15px 1px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+
+}
